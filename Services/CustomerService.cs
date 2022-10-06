@@ -1,5 +1,4 @@
 ﻿using Dapper;
-/*using customer.Data;*/
 using MudBlazor.Charts;
 using Npgsql;
 using DemoApp2.Data;
