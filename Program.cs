@@ -10,9 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 StaticWebAssetsLoader.UseStaticWebAssets(builder.Environment, builder.Configuration);
 
-
 ConfigurationManager config = builder.Configuration;
-GbVer.ConnectionString = config["ConnectingStrings:ConStr1"];
+GbVer.ConnectionString = config["ConnectionStrings:ConStr1"];
 
 // Add services to the container.
 builder.Services.AddRazorPages();
