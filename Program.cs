@@ -12,7 +12,7 @@ StaticWebAssetsLoader.UseStaticWebAssets(builder.Environment, builder.Configurat
 
 
 ConfigurationManager config = builder.Configuration;
-GbVer.ConnectionString = config["ConnectingString:COnStr1"];
+GbVer.ConnectionString = config["ConnectingStrings:ConStr1"];
 
 // Add services to the container.
 builder.Services.AddRazorPages();

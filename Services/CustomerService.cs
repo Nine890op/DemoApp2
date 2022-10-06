@@ -24,7 +24,7 @@ namespace DemoApp2.Services
                 }
             }
             catch (Exception ex)
-            { }
+            {}
             return Res;
         }
     }
